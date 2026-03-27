@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+</head>
+
+<body>
+    <div class="calculator glass">
+        <h2 class="title">Calculator</h2>
+        <div class="display">
+            <div class="previous" id="previous"></div>
+            <div class="current" id="current">0</div>
+        </div>
+        <div class="keypad">
+            <button class="btn filter" data-action="clear">AC</button>
+            <button class="btn filter" data-action="delete">DEL</button>
+            <button class="btn filter" data-action="percent">%</button>
+            <button class="btn operator" data-action="÷">÷</button>
+
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn operator" data-action="×">×</button>
+
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn operator" data-action="-">−</button>
+
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn operator" data-action="+">+</button>
+
+            <button class="btn number span-2">0</button>
+            <button class="btn number">.</button>
+            <button class="btn equals" data-action="=">=</button>
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+
+</html>
